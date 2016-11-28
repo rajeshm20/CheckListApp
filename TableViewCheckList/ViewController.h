@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *myTableView;
+
+
+@property (strong, nonatomic) NSArray* array;
+@property (strong, nonatomic) NSIndexPath* lastIndexPath;
+
 
 @end
 
